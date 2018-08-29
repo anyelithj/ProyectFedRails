@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @post.title %>
+  <strong>Tittle:</strong>
+  <%= @post.tittle %>
 </p>
 
 <p>
@@ -13,6 +13,11 @@
 <p>
   <strong>Author:</strong>
   <%= @post.author %>
+</p>
+
+<p>
+  <strong>Publication date:</strong>
+  <%= @post.publication_date %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
