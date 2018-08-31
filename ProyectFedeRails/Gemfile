@@ -36,9 +36,14 @@ gem 'carrierwave'
 
 gem 'mini_magick'
 
+gem 'devise', git: 'git://github.com/plataformatec/devise.git'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'listen'
+  gem 'wdm'
 end
 
 group :development do
