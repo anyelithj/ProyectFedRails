@@ -50,11 +50,11 @@ class ImagesController < ApplicationController
     private
     
         def images_params
-            params.require(:image).permit :description, :picture            
+            params.require(:image).permit :description, :picture
         end 
 
         def set_image
             @image = Image.find params[:id]
-       end
+       endra
        
 end
